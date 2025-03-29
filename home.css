@@ -1,0 +1,356 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-color: #f8f8f8;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+} 
+
+/*header section start*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: white;
+}
+.logo {
+    display: flex;
+    height: 30px;
+     
+}
+.logo p{
+    padding-top: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.icons {
+    display: flex;
+    gap: 35px;
+    list-style: none;
+}
+.icons a{
+   
+    text-decoration: none;
+}
+
+/*header section end*/
+
+
+/*Hero section start*/
+.hero {
+    width: auto;
+    height: 500px;
+    background-image: url(images/home/hero-background.png);
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: white;
+}
+.hero-text {
+    width: 50%;
+    background: #FBEAD1;
+    padding: 30px;
+    border-radius: 10px;
+}
+.hero-text h2 {
+    font-size: 32px;
+    color: #A3815A;
+    font-weight: bold;
+}
+.hero-text p {
+    margin: 15px 0;
+    color: #555;
+}
+.hero-text button {
+    background: #A3815A;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+/*Hero section end*/
+
+/*Browse the range section start*/
+.homedecor {
+    margin: 0 auto;
+    text-align: center;
+    padding:50px 0;
+}
+
+.home{
+    display: flex;
+    gap: 5px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+    
+}
+.home img{
+    width: 75%;
+}
+.home p{
+    font-weight:600;
+}
+/*Browse the range section start*/
+
+
+/*Our Product section start*/
+.products h3{
+    text-align: center;
+    margin:  20px;
+    padding: 20px;
+    
+}
+
+.card-items{
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     gap: 10px;
+     margin:10px 20px;
+}
+.image-container {
+    position: relative;
+}
+
+.discount {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    background: #E74C3C;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.new{
+    background-color: #2EC1AC;
+}
+.card {
+   
+    background-color: #f1f3f5;
+    border-radius: 10px;
+    border: none;
+    
+
+}
+.card h6 {
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+}
+.card p {
+    font-size: 14px;
+    color: #777;
+    margin: 5px 0;
+}
+.price {
+    font-size: 15px;
+    font-weight: bold;
+    color: #000000;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.old-price {
+    font-size: 16px;
+    text-decoration: line-through;
+    color: #999;
+    margin-left: 10px;
+}
+
+.btn{
+    text-align: center;
+}
+.btn button{
+    
+    padding: 10px 40px;
+    color: #B88E2F;
+    font-weight: 600;
+    margin: 30px 0;
+   
+}
+/*Our Product section end*/
+
+
+
+/*Beautiful room section start*/
+.beautiful-room{
+    background-color: #FCF8F3;
+}
+.rooms{
+    display: flex;
+    gap: 5px;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.rooms img{
+    width: 75%;
+}
+
+.rooms-title{
+    padding: 30px;
+    
+}
+.rooms-title p {
+    font-size: 14px;
+    color: #777;
+    margin: 5px 0;
+}
+
+.rooms-title button{
+    margin: 20px 0;
+    padding: 10px 30px;
+    border: none;
+    color: white;
+    background-color: #B88E2F;
+    font-weight: bold;
+}
+/*Beautiful room section end */
+
+/*Furniture section start*/
+.furniture {
+ margin: 20px 0;
+ width: 90%;
+ padding-bottom: 50px;
+}
+
+.furniture-title{
+ text-align: center;
+ margin-bottom: 30px;
+
+}
+.furniture-title p {
+    font-size: 14px;
+    color: #777;
+    margin: 5px 0;
+}
+
+.furnitures{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    gap: 10px;
+}
+
+.img2{
+    margin-left: -100px;
+    padding-top: 50px;
+}
+.img3{
+    padding-top: 100px;
+}
+.img4{
+    padding-top: 30px;
+}
+.img6{
+    margin-top: -100px;
+}
+.img7{
+    margin-top: -100px;
+}
+  
+/*Furniture room section end*/
+
+ /* Footer Sections */
+ footer {
+    background-color: #fff;
+    padding: 50px 20px;
+    margin-top: auto;
+    
+  }
+
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+  }
+
+  .footer-container div {
+    flex: 1;
+    padding: 10px;
+  }
+    
+  .footer-container h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #888;
+  }
+
+  .footer-container p{
+    font-size: 16px;
+    color: #888;
+    margin-top: 10px;
+  }
+  .footer-container a {
+    font-size:16px;
+    color: #000000;
+      text-decoration: none;
+      margin-bottom: 10px;
+      display: block;
+    }
+
+    .footer-container a:hover {
+      color: #e44d26;
+    }
+
+    /* Newsletter form styling */
+    .newsletter input[type="email"] {
+      padding: 10px;
+      font-size: 1em;
+      width: 100%;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-bottom: 15px;
+    }
+
+    .newsletter button {
+      padding: 10px 20px;
+      background-color: #e44d26;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1em;
+      width: 100%;
+    }
+
+    .newsletter button:hover {
+      background-color: #333;
+    }
+
+    /* Footer bottom section */
+    .footer-bottom {
+      text-align: center;
+      font-size: 0.8em;
+      color: #888;
+      margin-top: 20px;
+    }
+
