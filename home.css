@@ -90,6 +90,9 @@ nav ul li a {
     font-size: 16px;
     cursor: pointer;
 }
+.hero-text button:hover{
+    background: #2e6d13;
+}
 /*Hero section end*/
 
 /*Browse the range section start*/
