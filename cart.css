@@ -1,0 +1,70 @@
+.cart{
+    padding: 30px;
+    display: grid;
+    grid-template-columns:8fr 4fr;
+    gap: 30px;
+}
+
+
+.cart-option li, .asgaard-sofa{
+    list-style: none;
+    text-decoration: none;
+    
+}
+.cart-option ul, .asgaard-sofa {
+   display: flex;
+   justify-content: space-evenly;
+   
+}
+.cart-option ul{
+    background-color: #F9F1E7;
+    padding: 15px;
+}
+.sofa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.asgaard-sofa{
+    margin-top: 30px;
+    
+    align-items: center;
+}
+.sofa img{
+    background-color: #F9F1E7;
+    padding: 5px;
+    border-radius: 5px;
+}
+.quantity{
+    border: 1px solid rgb(86, 85, 85);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.cart-totals{
+    background-color: #F9F1E7;
+    padding: 50px;
+    text-align: center;
+}
+.amount{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.cart-totals button{
+    padding: 10px 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.cart-totals button:hover{
+    background-color:#e2a108 ;
+    color: white;
+}
+.subtotal{
+    color: #9F9F9F;
+    font-size: 16px;
+}
+.total{
+    color: #B88E2F;
+}
