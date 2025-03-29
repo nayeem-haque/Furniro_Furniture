@@ -1,0 +1,58 @@
+/* <!-- billing details section start  --> */
+
+.name{
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+.billing-details{
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+    padding: 50px;
+    gap: 50px;
+   
+
+}
+
+.billing-details-left, .billing-details-right {
+    background-color: #FAF3EA ;
+    padding: 20px;
+    
+}
+
+.style{
+    width: 340px; 
+    height: 40px; 
+    border-radius: 5px;
+}
+.name-style{
+    height: 40px; 
+    border-radius: 5px; 
+}
+
+.billing{
+    display: flex;
+    justify-content:space-between;
+    padding-top: 10px;
+}
+.total{
+    color: chocolate;
+    font-weight: bold;
+    font-size: larger;
+}
+.btn{
+    margin: 0 auto;
+    padding: 10px 300px;
+    border-radius: 5px;
+    background-color: burlywood;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+.btn:hover{
+    background-color: rgb(39, 98, 18);
+    color: white;
+}
+
+        
+/* <!-- billing details section end --> */
