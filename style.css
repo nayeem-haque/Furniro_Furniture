@@ -52,6 +52,12 @@ nav ul li a {
     text-decoration: none;
 }
 
+a:hover{
+  background-color: #B88E2F;
+  padding: 5px 20px;
+  color: white;
+  border-radius: 10px;
+}
 /*header section end*/
 
 /*Hero section start*/
