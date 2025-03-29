@@ -1,0 +1,139 @@
+
+
+.nav-title{
+    background-color: #F9F1E7;
+    padding: 20px 60px;
+}
+.nav-title ul{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    gap: 10px;
+}
+
+/* <!-- Asgaard sofa section start --> */
+
+.sofa{
+    
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 40px;
+
+}
+.sofa-picture{
+    display: flex;
+    gap: 20px;
+}
+.pictures{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.picture{
+   
+    background-color: #F9F1E7;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.asgaard-sofa{
+    padding-top: 30px;
+}
+.review{
+    display: flex;
+    gap: 20px;
+    
+}
+.price{
+    font-size: 16px;
+    color: #9F9F9F;
+}
+
+.size{
+    display: flex;
+    gap: 20px;
+    padding-top: 10px;
+}
+.size div{
+    background-color: #F9F1E7;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+button{
+    padding: 10px 30px; 
+}
+button:hover{
+    background-color: burlywood;
+}
+
+.links-box{
+    display: flex;
+    justify-content:stretch;
+    gap: 30px;
+    padding-top: 10px;
+    font-size: 16px;
+    color: #9F9F9F;
+}
+
+       /* <!-- Asgaard sofa section end --> */
+
+       /* <!-- description section start  --> */
+
+       .description{
+        margin: 30px 20px;
+        padding: 20px;
+        text-align: justify;
+       }
+       .description-title{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 30px 0;
+       }
+       .description p{
+        margin: 10px 100px;
+        font-size: 14px;
+       }
+
+       .description-sofa{
+        display: flex;
+        gap: 5px;
+        justify-content: center;
+        align-items: center;
+        
+       }
+       .description-sofa img{
+        height: 300px;
+       }
+        
+       /* <!-- description section end --> */
+
+       /* Related Products section start  */
+      .products h2{
+        text-align: center;
+        padding: 20px 0;
+        margin-top: 30px ;
+      }
+
+
+       .btn{
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .btn button{
+        
+        padding: 10px 40px;
+        color: #B88E2F;
+        font-weight: 600;
+        margin: 30px 0;
+       
+    }
+
+    .reviews{
+        color: #9F9F9F;
+    }
+    
+       /* Related Products section end */
