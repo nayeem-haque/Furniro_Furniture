@@ -65,7 +65,9 @@ nav ul li a {
     width: auto;
     height: 500px;
     background-image: url(images/home/hero-background.png);
-    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -362,3 +364,81 @@ nav ul li a {
       margin-top: 20px;
     }
 
+    /* Mobile Responsive  */
+
+    @media screen and (max-width:600px) {
+
+        header {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+        nav ul {
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+        .hero-text {
+            width: 100%;
+            
+        }
+        .home{
+            
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+           
+            
+        }
+
+        .card-items{
+            display: grid;
+            grid-template-columns: repeat(1, 12fr);
+            gap: 30px;
+            justify-content: center;
+            align-items: center;
+          
+       }
+
+       .rooms{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        
+        justify-content: center;
+        align-items: center;
+    }
+    .furnitures{
+        display: grid;
+        grid-template-columns: repeat(1, 12fr); 
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+        
+    }
+     .img1{
+        display: none;
+     }
+     .img6{
+        margin-top: 100px;
+    
+    }
+    .img7{
+        margin-top: 100px;
+    }
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        gap: 30px;
+      }
+
+    }
+    
